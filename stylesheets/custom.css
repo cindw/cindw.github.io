@@ -1,3 +1,27 @@
+body {
+    background-image: url("../images/bg.jpg");
+    color: white;
+}
+
+#title {
+    text-align: center;
+    display: block;
+    background: #000000;
+    padding: 1px 0px 1px 16px;
+    margin: -8px;
+    width: 100%;
+}
+
+.content {
+    padding: 5px;
+    background: rgba(20, 60, 100, .5); 
+    border-radius: 5px 5px 5px 5px;
+}
+
+#footer {
+    padding: 5px;
+}
+
 #nav {
     list-style-type: none;
 }
@@ -35,3 +59,4 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
