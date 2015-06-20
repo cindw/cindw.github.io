@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Cindw.GitHub.io by cindw</title>
-<!--    <link rel="stylesheet" href="stylesheets/styles.css"> -->
-    <link rel="stylesheet" href="stylesheets/custom.css">
+<!--    <link rel="stylesheet" href="../stylesheets/styles.css"> -->
+    <link rel="stylesheet" href="../stylesheets/custom.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
@@ -25,9 +25,9 @@
 	    <!--          <li class="fork"><a href="https://github.com/cindw">View On GitHub</a></li>-->
 	    <ul id="nav">
 	      <li><a href="">Home</a></li>
-	      <li><a href="news.asp">Where Am I?</a></li>
-	      <li><a href="contact.asp">Who Are You?</a></li>
-	      <li><a href="about.asp">Contact</a></li>
+	      <li><a href="about.html">Where Am I?</a></li>
+	      <li><a href="cindy.html">Who Are You?</a></li>
+	      <li><a href="contact.html">Contact</a></li>
 	    </ul>
 	  </nav>
 	</div><!-- end header -->
@@ -37,11 +37,11 @@
 	<h1>Cindy Wu</h1>
 	<p>My website.</p>
       </div>
-      
+      {% block content %}
       <div id="content">
 	My work:
       </div>
-
+      {% endblock %}
       <div id="footer">
 	<span class="credits left">Project maintained by <a href="https://github.com/cindw">cindw</a>.</span>
 	
