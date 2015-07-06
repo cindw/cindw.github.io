@@ -5,11 +5,14 @@ body {
     background-position: center;
     background-attachment: fixed;
     color: white;
-    height: 100%;
+    height: 100vh;
+    min-width: 450px;
 }
 
 #wrapper {
+    height: 100%;
     min-height: 100%;
+    min-width: 450px;
     position: relative;
 }
 
@@ -20,17 +23,19 @@ body {
     padding: 1px 0px 1px 16px;
     margin: -8px 0px 10px -8px;
     width: 100%;
+    min-width: 450px;
     top: 0px;
+    height: 150px;
     postion: relative;
 }
 
 #content {
     padding: 25px;
     padding-top: 10px;
-    height: 1000px;
+    height: 80%;
     background: rgba(20, 60, 100, .5); 
     border-radius: 10px;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15px;
