@@ -112,7 +112,7 @@ a:active {
     background: #B6B6B6;
 }
 
-#nav li .active a {
+#nav li.active a {
     text-decoration: none;
     color: #242424;
     background: #83D9DE;
