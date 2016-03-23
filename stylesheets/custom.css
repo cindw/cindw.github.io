@@ -90,8 +90,8 @@ body {
 
 #nav li a:active {
     text-decoration: none;
-    background: #B6B6B6
-    color: #000000
+    background: #B6B6B6;
+    color: #000000;
 }
 
 #nav li a:hover {
@@ -115,6 +115,6 @@ a:hover {
 
 a:active {
     text-decoration: none;
-    background: #bcebd7; 
-    color: #808080
+    background: #B6B6B6
+    color: #000000
 }
