@@ -87,8 +87,8 @@ body {
 
 #nav li a:active {
     text-decoration: none;
-    background: #B6B6B6;
-    color: #83D9DE;
+    color: #242424;
+    background: #83D9DE;
 }
 
 a:link {
@@ -108,6 +108,6 @@ a:hover {
 
 a:active {
     text-decoration: none;
-    background: #B6B6B6
-    color: #000000
+    color: #242424;
+    background: #83D9DE;
 }
