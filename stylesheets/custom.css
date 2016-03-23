@@ -76,7 +76,7 @@ body {
 
 #nav li a:visited {
     text-decoration: none;
-    color: #B6B6B6
+    color: #B6B6B6;
 }
 
 #nav li a:hover {
@@ -98,12 +98,12 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #B6B6B6
+    color: #B6B6B6;
 }
 
 a:hover {
     text-decoration: none;
-    color: #808080
+    color: #808080;
 }
 
 a:active {
