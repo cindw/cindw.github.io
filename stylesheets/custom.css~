@@ -69,6 +69,10 @@ body {
     border-radius: 5px;
 }
 
+#nav li a:hover {
+    background: #bcebd7; 
+}
+
 #nav li a:link {
     text-decoration: none;
     color: #FFFFFF;
@@ -76,19 +80,22 @@ body {
 
 #nav li a:visited {
     text-decoration: none;
-    color: #B6B6B6;
+    color: #B6B6B6
 }
 
 #nav li a:hover {
     text-decoration: none;
-    color: #242424;
-    background: #83D9DE;
+    color: #242424
 }
 
 #nav li a:active {
     text-decoration: none;
-    color: #000000;
-    background: #B6B6B6;
+    background: #B6B6B6
+    color: #000000
+}
+
+#nav li a:hover {
+    background: #bcebd7; 
 }
 
 a:link {
@@ -98,22 +105,16 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #B6B6B6;
+    color: #B6B6B6
 }
 
 a:hover {
     text-decoration: none;
-    color: #808080;
+    color: #808080
 }
 
 a:active {
     text-decoration: none;
-    color: #000000;
-    background: #B6B6B6;
-}
-
-#nav li .active {
-    text-decoration: none;
-    color: #242424;
-    background: #83D9DE;
+    background: #B6B6B6
+    color: #000000
 }
