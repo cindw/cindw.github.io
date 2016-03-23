@@ -114,6 +114,6 @@ a:active {
 
 #nav li.active a {
     text-decoration: none;
-    color: #242424;
-    background: #83D9DE;
+    color: #FFFFFF;
+    background: #000000;
 }
