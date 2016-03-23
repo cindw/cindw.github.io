@@ -82,12 +82,13 @@ body {
 #nav li a:hover {
     text-decoration: none;
     color: #242424;
+    background: #83D9DE;
 }
 
 #nav li a:active {
     text-decoration: none;
     background: #B6B6B6;
-    color: #000000;
+    color: #83D9DE;
 }
 
 a:link {
